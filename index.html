@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phoenix Excel Training · Inset Day</title>
+  <meta name="description" content="Download the Excel training resources for Phoenix Collegiate: slides and workbook PDF." />
+  <style>
+    :root { --blue:#181930; --ink:#0f1220; --ink2:#41445a; --paper:#f8f9fc; --card:#fff; }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:var(--paper);color:var(--ink)}
+    .wrap{max-width:880px;margin:0 auto;padding:32px 20px 60px}
+    header{margin:6px 0 18px}
+    h1{font-size:clamp(1.4rem,2.2vw,2rem);margin:0}
+    .sub{color:var(--ink2);margin:6px 0 0}
+    .card{background:var(--card);border-radius:16px;padding:20px;box-shadow:0 8px 30px rgba(0,0,0,.08);border:1px solid rgba(0,0,0,.06)}
+    .grid{display:grid;gap:14px;margin-top:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    a.btn{display:flex;align-items:center;gap:12px;padding:14px 16px;text-decoration:none;font-weight:600;border-radius:12px;border:1px solid rgba(0,0,0,.08);background:#fff;transition:transform .06s,box-shadow .2s,border-color .2s;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+    a.btn:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.10);border-color:rgba(0,0,0,.12)}
+    .meta{display:flex;flex-direction:column;line-height:1.15}
+    .title{font-size:1rem;color:var(--ink)}
+    .desc{font-size:.85rem;color:var(--ink2);font-weight:500}
+    .mini{font-size:.83rem;color:var(--ink2)}
+    .icon{width:28px;height:28px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Phoenix Excel Training</h1>
+      <div class="sub">Inset Day · 3 September 2025 · Holly Lodge</div>
+    </header>
+
+    <div class="card">
+      <div class="grid">
+        <!-- PDF -->
+        <a class="btn" href="./Phoenix%20Excel%20Training%20Workbook.pdf" download>
+          <!-- PDF icon (red) -->
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M7 3h6l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke="#E53935" stroke-width="1.6"/>
+            <path d="M13 3v5h5" stroke="#E53935" stroke-width="1.6"/>
+            <path d="M8 16h8M8 12h8" stroke="#E53935" stroke-width="1.6"/>
+          </svg>
+          <div class="meta">
+            <span class="title">Workbook (PDF)</span>
+            <span class="desc">Printable handout</span>
+          </div>
+        </a>
+
+        <!-- PPTX -->
+        <a class="btn" href="./Excel_for_Beginners_Training.pptx" download>
+          <!-- PowerPoint icon (orange "cake" with a pulled-out quarter slice) -->
+<svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake outline -->
+  <circle cx="12" cy="12" r="9" stroke="#FB8C00" stroke-width="1.6" fill="none"/>
+  <!-- Pulled slice (90° sector from 12 o’clock to 3 o’clock), offset a touch -->
+  <path d="M12 12 L12 3 A9 9 0 0 1 21 12 Z"
+        fill="#FB8C00"
+        opacity="0.9"
+        transform="translate(1.1,-1.1)"/>
+  <!-- Soft shading inside the circle where the slice came from (optional) -->
+  <path d="M12 12 L12 3 A9 9 0 0 1 21 12 Z"
+        fill="#FB8C00"
+        opacity="0.18"/>
+</svg>
+
+          <div class="meta">
+            <span class="title">Slides (PowerPoint)</span>
+            <span class="desc">Starter deck</span>
+          </div>
+        </a>
+
+        <!-- XLSX (placeholder until your Excel is ready; safe to leave) -->
+        <a class="btn" href="./Phoenix_Excel_Training_2019.xlsx" download>
+          <!-- Excel icon (green) -->
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="#2E7D32" stroke-width="1.6"/>
+            <path d="M7.5 7.5l9 9M16.5 7.5l-9 9" stroke="#2E7D32" stroke-width="1.6"/>
+          </svg>
+          <div class="meta">
+            <span class="title">Training Workbook (Excel 2019)</span>
+            <span class="desc">Exercises & examples</span>
+          </div>
+        </a>
+      </div>
+
+      <p class="mini" style="margin-top:14px">If your browser previews instead of downloading, right-click → “Save link as…”.</p>
+    </div>
+  </div>
+</body>
+</html>
